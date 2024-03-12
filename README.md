@@ -25,5 +25,29 @@ Adicione como referência todas as DLL's que contém na pasta `/rust_server_Data
 
 ## Hooks da Oxide:
 
-- **Init** (Ao iniciar o plugin, e não recebe nenhum argumento)
-- **Loaded** (Ao carregar o plugin, e não recebe nenhum argumento)
+- Init
+- OnPluginLoaded (Plugin plugin)
+- OnServerInitialized
+- OnServerSave
+- IOnServerShutdown
+- IOnUserApprove
+- OnPlayerConnected (NetUser User)
+- OnPlayerDisconnected (uLink.NetworkPlayer netPlayer)
+- OnPlayerSpawn (PlayerClient client)
+- OnPlayerSpawned (PlayerClient client)
+- IOnPlayerVoice (NetUser netUser)
+- ConsolePlugins (ConsoleSystem.Arg arg)
+- ConsoleLoad (ConsoleSystem.Arg arg)
+- ConsoleUnload (ConsoleSystem.Arg arg)
+- ConsoleReload (ConsoleSystem.Arg arg)
+- ConsoleVersion (ConsoleSystem.Arg arg)
+- ConsoleGroup (ConsoleSystem.Arg arg)
+- ConsoleUserGroup (ConsoleSystem.Arg arg)
+- ConsoleGrant (ConsoleSystem.Arg arg)
+- ConsoleRevoke (ConsoleSystem.Arg arg)
+- ConsoleShow (ConsoleSystem.Arg arg)
+- OnRunCommand (ConsoleSystem.Arg arg, bool wantreply)
+- IOnGetClientMove (NetUser netUser, Vector3 pos)
+- IOnRecieveNetwork
+- IOnRPCError (object obj)
+- IOnAIMovement (BasicWildLifeAI ai, BaseAIMovement movement)
