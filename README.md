@@ -2,6 +2,8 @@
 
 [Repositório com plugins de referência](https://github.com/KichDM/RustLegacyPlugins)
 
+[Retoolkit](https://github.com/mentebinaria/retoolkit)
+
 ## Como iniciar?
 
 Adicione como referência todas as DLL's que contém na pasta `/rust_server_Data/Managed` a partir do diretório principal da sua oxide, tanto no VISUAL STUDIO quanto no JETBRAINS RIDER e logo após comece no `namespace` `Oxide.Plugins`...
